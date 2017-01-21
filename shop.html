@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <nav class="main-navigation">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Информация</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Прайс - Лист</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a href="#" class="login">Вход</a>
+            </div>
+
+            <h1>Средства для ухода</h1>
+            <div class="breadcrumbs">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Магазин</a></li>
+                    <li><a href="#">Средства для ухода</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <hr>
+
+<main>
+    <div class="container">
+        <div class="filter">
+            <form action="#">
+                <fieldset>
+                    <legend class="form-title-producers">Производители:</legend>
+                    <label>
+                        <input type="checkbox" name="Baxter of California" checked>
+                        Baxter of California
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Mr Natty">
+                        Mr Natty
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Suavecito" checked>
+                        Suavecito
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Malin+Goetz">
+                        Malin+Goetz
+                    </label>
+                    <label>
+                        <input type="checkbox" name="Murray’s">
+                        Murray’s
+                    </label>
+                    <label>
+                        <input type="checkbox" name="American Crew" checked>
+                        American Crew
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="form-title-group">Группа товаров:</legend>
+                    <label>
+                        <input type="radio" name="group" value="razors">
+                        Бритевенные принадлежности
+                    </label>
+                    <label>
+                        <input type="radio" name="group" value="care" checked>
+                        Средства для ухоа
+                    </label>
+                    <label>
+                        <input type="radio" name="group" value="accessories">
+                        Аксессуары
+                    </label>
+                    <input type="submit" value="Показать">
+                </fieldset>
+            </form>
+        </div>
+        <div class="shop-content">
+            <div class="cardProduct">
+                <img src="#" alt="">
+                <div class="item-name">
+                    <a href="#">
+                        <span class="category">Набор для путешествий </span>
+                        <span class="title">«Baxter of California»</span>
+                    </a>
+                </div>
+                <div class="cardProduct-price">
+                    <span>2 990р</span>
+                    <a href="#">Купить</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <hr>
+
+    <footer class="main-footer">
+        <div class="container">
+            <section class="footer-contacts">
+                БАРБЕРШОП «БОРОДИНСКИЙ» <br>
+                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>
+                <a href="#">КАК НАС НАЙТИ?</a> <br>
+                ТЕЛЕФОН: +7 (495) 666-02-66
+            </section>
+            <section class="footer-social">
+                <p>Давайте дружить!</p>
+                <a href="#" class="social-btn" class="social-btn-vk">Вконтакте</a>
+                <a href="#" class="social-btn" class="social-btn-fb">Фейсбук</a>
+                <a href="#" class="social-btn" class="social-btn-inst">Инстаграм</a>
+            </section>
+            <section class="footer-copyright">
+                <span>Разработано</span>
+                <a href="htmlacademy.ru" class="btn">Htmlacademy.ru</a>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

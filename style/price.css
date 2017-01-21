@@ -1,0 +1,34 @@
+.price-header {
+    float: left;
+}
+
+b.price-title {
+    display: inline-block;
+    width: 940px;
+    text-align: center;
+}
+
+.services {
+    margin-bottom: 70px;
+}
+
+.option {
+    float: left;
+    width: 385px;
+}
+
+.price-float {
+    float: right;
+    width: 465px;
+}
+
+.aboutUs-columnLeft {
+    float: left;
+    width: 386px;
+    margin-right: 100px;
+}
+
+.aboutUs-columnRight {
+    float: left;
+    width: 380px;
+}

@@ -1,0 +1,46 @@
+li {
+    list-style-type: none;
+}
+
+.footer-contacts {
+    float: left;
+    width: 320px;
+    margin-right: 90px;
+}
+
+.item-header {
+    float: left;
+}
+
+.item-content {
+    background-color: wheat;
+    color: #000;
+
+    padding-top: 54px;
+    padding-bottom: 49px;
+}
+
+.item-content-left {
+    float: left;
+    width: 465px;
+}
+
+.gallery {
+    margin-right: 16px;
+    margin-top: 20px;
+}
+
+.item-content-right {
+    float: right;
+    width: 380px;
+    margin-bottom: 200px;
+}
+
+.content-description {
+    margin-bottom: 40px;
+}
+
+.price {
+    margin-bottom: 68px;
+}
+
