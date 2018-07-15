@@ -114,6 +114,9 @@ header
 
     background-color: #000000;
     color: #ffffff;
+
+
+
 }
 
 /*
@@ -204,20 +207,7 @@ header
     margin-bottom: 15px;
 }
 
-.social-btn {
-    display: inline-block;
-    width: 43px;
-    height: 43px;
-    margin: 0 2px;
 
-    font-size: 0;
-    vertical-align: top;
-    text-decoration: none;
-
-    background: #000000 url('img/spritesheet.png') no-repeat  center;
-
-
-}
 
 .footer-copyright p {
     margin: 0;
@@ -237,26 +227,54 @@ header
 }
 
 
+
+
+/*Соц сети*/
+
+.social-btn {
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    margin: 0 2px;
+
+    font-size: 0;
+    vertical-align: top;
+    text-decoration: none;
+
+    background: #000000 url('img/spritesheet.png') no-repeat;
+
+    transition:
+    background-color 0.5s,
+    background-position 0.5s;
+
+
+}
+
 .social-btn-vk {
 
-    background-position: 9px -447px;
+    background-position: -336px -0.5px;
+
 }
 .social-btn-fb {
-    background-position: -85px -36px;
+    background-position: -130.5px -3.5px;
 }
-.social-btn-inst {
-    background-position: -5px -93px;
+.social-btn-in {
+    background-position: -228px -3px;
 }
 
 .social-btn-vk:hover {
-    background-position: -74px -67px;
+    background-color: white;
+    background-position: -281px -0.5px;
 }
 .social-btn-fb:hover {
-    background-position: 15px -100px;
+    background-color: white;
+    background-position: -88.5px -3.5px;
 }
-.social-btn-inst:hover {
-    background-position: 12px -242px;
+.social-btn-in:hover {
+    background-color: white;
+    background-position: -177px -3px;
 }
+
 
 
 

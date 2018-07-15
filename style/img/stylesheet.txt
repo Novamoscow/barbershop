@@ -1,0 +1,53 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Locked {
+    width: 15px;
+    height: 17px;
+    background-position: -15px -15px;
+}
+
+.sprite-User {
+    width: 15px;
+    height: 15px;
+    background-position: -60px -15px;
+}
+
+.sprite-icon-fb_color_black {
+    width: 12px;
+    height: 22px;
+    background-position: -105px -15px;
+}
+
+.sprite-icon-fb_color_white {
+    width: 12px;
+    height: 22px;
+    background-position: -147px -15px; 16.5 11.5
+}
+
+.sprite-icon-in_color_black {
+    width: 21px;
+    height: 21px;
+    background-position: -189px -15px; 12 12
+}
+
+.sprite-icon-in_color_white {
+    width: 21px;
+    height: 21px;
+    background-position: -240px -15px;
+}
+
+.sprite-icon-vk_color_black {
+    width: 25px;
+    height: 16px;
+    background-position: -291px -15px;
+}
+
+.sprite-icon-vk_color_white {
+    width: 25px;
+    height: 16px;
+    background-position: -346px -15px;10 14.5
+}
